@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0156D3242CA29A0041938C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0156D2242CA29A0041938C /* AppDelegate.swift */; };
+		BE0156D5242CA29A0041938C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0156D4242CA29A0041938C /* ViewController.swift */; };
+		BE0156D7242CA29B0041938C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0156D6242CA29B0041938C /* Assets.xcassets */; };
+		BE0156DA242CA29B0041938C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0156D8242CA29B0041938C /* Main.storyboard */; };
+		BE0156E6242CA29C0041938C /* ImageRsizerToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0156E5242CA29C0041938C /* ImageRsizerToolTests.swift */; };
+		BE0156F1242CA29C0041938C /* ImageRsizerToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0156F0242CA29C0041938C /* ImageRsizerToolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0156E2242CA29C0041938C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0156C7242CA29A0041938C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0156CE242CA29A0041938C;
+			remoteInfo = ImageRsizerTool;
+		};
+		BE0156ED242CA29C0041938C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0156C7242CA29A0041938C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0156CE242CA29A0041938C;
+			remoteInfo = ImageRsizerTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0156CF242CA29A0041938C /* ImageRsizerTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRsizerTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0156D2242CA29A0041938C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE0156D4242CA29A0041938C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE0156D6242CA29B0041938C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0156D9242CA29B0041938C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0156DB242CA29B0041938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0156DC242CA29B0041938C /* ImageRsizerTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageRsizerTool.entitlements; sourceTree = "<group>"; };
+		BE0156E1242CA29B0041938C /* ImageRsizerToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRsizerToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0156E5242CA29C0041938C /* ImageRsizerToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRsizerToolTests.swift; sourceTree = "<group>"; };
+		BE0156E7242CA29C0041938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0156EC242CA29C0041938C /* ImageRsizerToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRsizerToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0156F0242CA29C0041938C /* ImageRsizerToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRsizerToolUITests.swift; sourceTree = "<group>"; };
+		BE0156F2242CA29C0041938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0156CC242CA29A0041938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0156DE242CA29B0041938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0156E9242CA29C0041938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0156C6242CA29A0041938C = {
+			isa = PBXGroup;
+			children = (
+				BE0156D1242CA29A0041938C /* ImageRsizerTool */,
+				BE0156E4242CA29C0041938C /* ImageRsizerToolTests */,
+				BE0156EF242CA29C0041938C /* ImageRsizerToolUITests */,
+				BE0156D0242CA29A0041938C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0156D0242CA29A0041938C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0156CF242CA29A0041938C /* ImageRsizerTool.app */,
+				BE0156E1242CA29B0041938C /* ImageRsizerToolTests.xctest */,
+				BE0156EC242CA29C0041938C /* ImageRsizerToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0156D1242CA29A0041938C /* ImageRsizerTool */ = {
+			isa = PBXGroup;
+			children = (
+				BE0156D2242CA29A0041938C /* AppDelegate.swift */,
+				BE0156D4242CA29A0041938C /* ViewController.swift */,
+				BE0156D6242CA29B0041938C /* Assets.xcassets */,
+				BE0156D8242CA29B0041938C /* Main.storyboard */,
+				BE0156DB242CA29B0041938C /* Info.plist */,
+				BE0156DC242CA29B0041938C /* ImageRsizerTool.entitlements */,
+			);
+			path = ImageRsizerTool;
+			sourceTree = "<group>";
+		};
+		BE0156E4242CA29C0041938C /* ImageRsizerToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0156E5242CA29C0041938C /* ImageRsizerToolTests.swift */,
+				BE0156E7242CA29C0041938C /* Info.plist */,
+			);
+			path = ImageRsizerToolTests;
+			sourceTree = "<group>";
+		};
+		BE0156EF242CA29C0041938C /* ImageRsizerToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0156F0242CA29C0041938C /* ImageRsizerToolUITests.swift */,
+				BE0156F2242CA29C0041938C /* Info.plist */,
+			);
+			path = ImageRsizerToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0156CE242CA29A0041938C /* ImageRsizerTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0156F5242CA29C0041938C /* Build configuration list for PBXNativeTarget "ImageRsizerTool" */;
+			buildPhases = (
+				BE0156CB242CA29A0041938C /* Sources */,
+				BE0156CC242CA29A0041938C /* Frameworks */,
+				BE0156CD242CA29A0041938C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRsizerTool;
+			productName = ImageRsizerTool;
+			productReference = BE0156CF242CA29A0041938C /* ImageRsizerTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0156E0242CA29B0041938C /* ImageRsizerToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0156F8242CA29C0041938C /* Build configuration list for PBXNativeTarget "ImageRsizerToolTests" */;
+			buildPhases = (
+				BE0156DD242CA29B0041938C /* Sources */,
+				BE0156DE242CA29B0041938C /* Frameworks */,
+				BE0156DF242CA29B0041938C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0156E3242CA29C0041938C /* PBXTargetDependency */,
+			);
+			name = ImageRsizerToolTests;
+			productName = ImageRsizerToolTests;
+			productReference = BE0156E1242CA29B0041938C /* ImageRsizerToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE0156EB242CA29C0041938C /* ImageRsizerToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0156FB242CA29C0041938C /* Build configuration list for PBXNativeTarget "ImageRsizerToolUITests" */;
+			buildPhases = (
+				BE0156E8242CA29C0041938C /* Sources */,
+				BE0156E9242CA29C0041938C /* Frameworks */,
+				BE0156EA242CA29C0041938C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0156EE242CA29C0041938C /* PBXTargetDependency */,
+			);
+			name = ImageRsizerToolUITests;
+			productName = ImageRsizerToolUITests;
+			productReference = BE0156EC242CA29C0041938C /* ImageRsizerToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0156C7242CA29A0041938C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mostafizur Rahman";
+				TargetAttributes = {
+					BE0156CE242CA29A0041938C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BE0156E0242CA29B0041938C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BE0156CE242CA29A0041938C;
+					};
+					BE0156EB242CA29C0041938C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BE0156CE242CA29A0041938C;
+					};
+				};
+			};
+			buildConfigurationList = BE0156CA242CA29A0041938C /* Build configuration list for PBXProject "ImageRsizerTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0156C6242CA29A0041938C;
+			productRefGroup = BE0156D0242CA29A0041938C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0156CE242CA29A0041938C /* ImageRsizerTool */,
+				BE0156E0242CA29B0041938C /* ImageRsizerToolTests */,
+				BE0156EB242CA29C0041938C /* ImageRsizerToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0156CD242CA29A0041938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0156D7242CA29B0041938C /* Assets.xcassets in Resources */,
+				BE0156DA242CA29B0041938C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0156DF242CA29B0041938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0156EA242CA29C0041938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0156CB242CA29A0041938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0156D5242CA29A0041938C /* ViewController.swift in Sources */,
+				BE0156D3242CA29A0041938C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0156DD242CA29B0041938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0156E6242CA29C0041938C /* ImageRsizerToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0156E8242CA29C0041938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0156F1242CA29C0041938C /* ImageRsizerToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE0156E3242CA29C0041938C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0156CE242CA29A0041938C /* ImageRsizerTool */;
+			targetProxy = BE0156E2242CA29C0041938C /* PBXContainerItemProxy */;
+		};
+		BE0156EE242CA29C0041938C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0156CE242CA29A0041938C /* ImageRsizerTool */;
+			targetProxy = BE0156ED242CA29C0041938C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE0156D8242CA29B0041938C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0156D9242CA29B0041938C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE0156F3242CA29C0041938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE0156F4242CA29C0041938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE0156F6242CA29C0041938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ImageRsizerTool/ImageRsizerTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2VZ7V842VP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ImageRsizerTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagepap.ImageRsizerTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE0156F7242CA29C0041938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ImageRsizerTool/ImageRsizerTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2VZ7V842VP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ImageRsizerTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagepap.ImageRsizerTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE0156F9242CA29C0041938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2VZ7V842VP;
+				INFOPLIST_FILE = ImageRsizerToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagepap.ImageRsizerToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRsizerTool.app/Contents/MacOS/ImageRsizerTool";
+			};
+			name = Debug;
+		};
+		BE0156FA242CA29C0041938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2VZ7V842VP;
+				INFOPLIST_FILE = ImageRsizerToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagepap.ImageRsizerToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRsizerTool.app/Contents/MacOS/ImageRsizerTool";
+			};
+			name = Release;
+		};
+		BE0156FC242CA29C0041938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2VZ7V842VP;
+				INFOPLIST_FILE = ImageRsizerToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagepap.ImageRsizerToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ImageRsizerTool;
+			};
+			name = Debug;
+		};
+		BE0156FD242CA29C0041938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2VZ7V842VP;
+				INFOPLIST_FILE = ImageRsizerToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagepap.ImageRsizerToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ImageRsizerTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0156CA242CA29A0041938C /* Build configuration list for PBXProject "ImageRsizerTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0156F3242CA29C0041938C /* Debug */,
+				BE0156F4242CA29C0041938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0156F5242CA29C0041938C /* Build configuration list for PBXNativeTarget "ImageRsizerTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0156F6242CA29C0041938C /* Debug */,
+				BE0156F7242CA29C0041938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0156F8242CA29C0041938C /* Build configuration list for PBXNativeTarget "ImageRsizerToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0156F9242CA29C0041938C /* Debug */,
+				BE0156FA242CA29C0041938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0156FB242CA29C0041938C /* Build configuration list for PBXNativeTarget "ImageRsizerToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0156FC242CA29C0041938C /* Debug */,
+				BE0156FD242CA29C0041938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0156C7242CA29A0041938C /* Project object */;
+}
