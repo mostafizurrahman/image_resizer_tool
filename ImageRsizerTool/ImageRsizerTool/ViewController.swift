@@ -57,7 +57,7 @@ class ViewController: NSViewController {
                         let firstImageData = try Data(contentsOf: imageUrl)
                         if let firstImage = NSImage(data: firstImageData) {
                             if let image = firstImage.representations.first as? NSBitmapImageRep {
-                                let _iconSize:CGFloat = 250.0
+                                let _iconSize:CGFloat = 275.0
                                 let _width = firstImage.size.width
                                 let _height = firstImage.size.height
                                 let _ratio = _width / _height
